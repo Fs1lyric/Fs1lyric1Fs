@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Nabhan Lyric Chowdhury</title>
+  <meta name="description" content="Nabhan Lyric Chowdhury — writer, martial artist, artist, and engineer. Reader, coder, and creator." />
+  <meta name="author" content="Nabhan Lyric Chowdhury" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nabhan Lyric Chowdhury" />
+  <meta property="og:description" content="Writer, martial artist, artist, and engineer." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="avatar.png" />
+
+  <!-- Security hardening: Content Security Policy.
+       Restricts what can load/run on the page to trusted sources only.
+       This helps keep the site from being abused for phishing/injection. -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    img-src 'self' data:;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src https://fonts.gstatic.com;
+    frame-src https://w.soundcloud.com;
+    child-src https://w.soundcloud.com;
+    connect-src 'self';
+    base-uri 'self';
+    form-action 'none';
+    object-src 'none';
+    frame-ancestors 'self';
+  " />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <link rel="icon" href="avatar.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <main id="main" class="container">
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="avatar-ring">
+        <img class="avatar" src="avatar.png" width="140" height="140"
+             alt="Profile picture of Nabhan Lyric Chowdhury" />
+      </div>
+      <h1 class="name">Nabhan Lyric Chowdhury</h1>
+      <p class="tagline">Writer &middot; Martial Artist &middot; Artist &middot; Engineer</p>
+      <p class="intro">
+        I read, write, and create. I train in martial arts, make art, and build
+        things through code and engineering. This is my corner of the web.
+      </p>
+    </header>
+
+    <!-- HOBBIES -->
+    <section class="section" aria-labelledby="hobbies-title">
+      <h2 id="hobbies-title" class="section-title">Hobbies</h2>
+      <ul class="hobby-grid">
+        <li class="hobby-card">
+          <span class="hobby-icon" aria-hidden="true">&#128214;</span>
+          <span class="hobby-name">Reading</span>
+        </li>
+        <li class="hobby-card">
+          <span class="hobby-icon" aria-hidden="true">&#9997;</span>
+          <span class="hobby-name">Writing</span>
+        </li>
+        <li class="hobby-card">
+          <span class="hobby-icon" aria-hidden="true">&#129354;</span>
+          <span class="hobby-name">Martial Arts</span>
+        </li>
+        <li class="hobby-card">
+          <span class="hobby-icon" aria-hidden="true">&#127912;</span>
+          <span class="hobby-name">Art</span>
+        </li>
+        <li class="hobby-card">
+          <span class="hobby-icon" aria-hidden="true">&#128187;</span>
+          <span class="hobby-name">Coding</span>
+        </li>
+        <li class="hobby-card">
+          <span class="hobby-icon" aria-hidden="true">&#9881;</span>
+          <span class="hobby-name">Engineering</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- MUSIC WIDGET -->
+    <section class="section" aria-labelledby="music-title">
+      <h2 id="music-title" class="section-title">Now Playing</h2>
+      <div class="music-card">
+        <p class="music-label">My favourite song</p>
+        <p class="music-song">&ldquo;Stay&rdquo; &mdash; Nextime</p>
+        <div class="music-embed" id="music-embed">
+          <!--
+            Full-song player. Loaded on click so nothing streams until you ask for it.
+            An official streaming embed is used (never a raw MP3) so the whole track
+            plays and the site can never be hit with a copyright takedown.
+          -->
+          <button type="button" class="play-btn" id="play-btn" aria-label="Play Stay by Nextime">
+            <span class="play-icon" aria-hidden="true">&#9654;</span>
+            Play the full song
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- LINKS -->
+    <section class="section" aria-labelledby="links-title">
+      <h2 id="links-title" class="section-title">Links</h2>
+      <div class="links-grid">
+        <a class="link-card" href="https://github.com/Fs1lyric" target="_blank" rel="noopener noreferrer external">
+          <span class="link-icon" aria-hidden="true">&#9670;</span>
+          <span class="link-text"><span class="link-name">GitHub</span><span class="link-sub">Fs1lyric</span></span>
+        </a>
+        <a class="link-card" href="https://discord.com/users/1467416211364249857" target="_blank" rel="noopener noreferrer external">
+          <span class="link-icon" aria-hidden="true">&#9210;</span>
+          <span class="link-text"><span class="link-name">Discord</span><span class="link-sub">Profile</span></span>
+        </a>
+        <a class="link-card" href="https://www.instagram.com/volksreader/" target="_blank" rel="noopener noreferrer external">
+          <span class="link-icon" aria-hidden="true">&#9673;</span>
+          <span class="link-text"><span class="link-name">Instagram</span><span class="link-sub">@volksreader</span></span>
+        </a>
+        <a class="link-card" href="https://www.webnovel.com/book/ink-eye_36125155608860405" target="_blank" rel="noopener noreferrer external">
+          <span class="link-icon" aria-hidden="true">&#128218;</span>
+          <span class="link-text"><span class="link-name">My Novels</span><span class="link-sub">Ink Eye on WebNovel</span></span>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Nabhan Lyric Chowdhury</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
