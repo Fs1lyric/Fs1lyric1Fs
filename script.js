@@ -9,20 +9,22 @@ document.getElementById("year").textContent = new Date().getFullYear();
   var embed = document.getElementById("music-embed");
   if (!btn || !embed) return;
 
-  // SoundCloud URL for "Stay" by Nextime. Update the track URL below if needed.
-  var TRACK_URL = "https://soundcloud.com/nextimemusic/stay";
+  // YouTube video ID for "Stay" by Nextime. Update the ID below if needed.
+  var VIDEO_ID = "Jyj51_p-jbs";
 
   btn.addEventListener("click", function () {
     var iframe = document.createElement("iframe");
     iframe.width = "100%";
-    iframe.height = "166";
-    iframe.allow = "autoplay";
+    iframe.height = "220";
+    iframe.allow =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.allowFullscreen = true;
     iframe.title = "Stay by Nextime";
-    iframe.setAttribute("scrolling", "no");
+    iframe.setAttribute("frameborder", "0");
     iframe.src =
-      "https://w.soundcloud.com/player/?url=" +
-      encodeURIComponent(TRACK_URL) +
-      "&color=%233b82f6&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false";
+      "https://www.youtube-nocookie.com/embed/" +
+      VIDEO_ID +
+      "?autoplay=1&rel=0&modestbranding=1";
 
     embed.innerHTML = "";
     embed.appendChild(iframe);
