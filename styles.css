@@ -8,7 +8,7 @@
   --muted: #a6adc8;       /* Subtext0 */
   --brand: #89b4fa;       /* Blue */
   --brand-strong: #74c7ec;/* Sapphire */
-  --on-brand: #1e1e2e;    /* Base — dark text on accent */
+  --on-brand: #1e1e2e;    /* Base - dark text on accent */
   --brand-soft: rgba(137, 180, 250, 0.14);
   --radius: 16px;
 }
